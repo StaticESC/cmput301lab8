@@ -61,4 +61,17 @@ public class CustomList extends ArrayAdapter<City> {
         cities.add(city);
     }
 
+    public boolean hasCity(City city) {
+//        for (City c : this.cities) {
+//            if (c.getCityName().equals(city.getCityName()) && c.getProvinceName().equals(city.getProvinceName())) {
+//                return true;
+//            }
+//        }
+        return false;
+    }
+
+    public void deleteCity(City city) {
+//        this.cities.remove(city);
+    }
+
 }
